@@ -9,7 +9,7 @@ import {useForm} from 'react-hook-form'
 const LoggedinHome=()=>{
     const [users, setUsers]=useState([]);
     const [show, setShow]=useState(false)
-    const {register, reset, handleSubmit,setValue, formState:{errors}} = useForm()
+    const {register, handleSubmit,setValue, formState:{errors}} = useForm()
     const [userId, setUserId] =useState(0)
 
     useEffect(
