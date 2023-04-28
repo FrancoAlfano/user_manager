@@ -11,6 +11,6 @@
 5. Open a second terminal, access the venv, go to the /client directory and run: `npm install` and then `npm run`
 7. Test user for login:
 
-    user: `amin`
+    user: `admin`
 
     pass: `admin123`
